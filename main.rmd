@@ -1,0 +1,58 @@
+---
+title: "test document"
+output:
+  github_document:
+    toc: true
+    toc_depth: 1
+---
+
+# abstract
+
+Summaries and plots for dataset.
+
+```{r, results='asis', echo=FALSE}
+name <- "airmiles"
+cat(sprintf("# %s\n", name))
+
+## summary of airmiles
+
+```{r, echo=FALSE}
+load("./dataset/airmiles/data.rda")
+summary(data)
+```
+
+## plot of airmiles
+
+```{r, echo=FALSE}
+plot(data)
+```
+
+# cars
+
+## summary of cars
+
+```{r, echo=FALSE}
+load("./dataset/cars/data.rda")
+summary(data)
+```
+
+## plot of cars
+
+```{r, echo=FALSE}
+plot(data)
+```
+
+# iris
+
+## summary of iris
+
+```{r, echo=FALSE}
+load("./dataset/iris/data.rda")
+summary(data)
+```
+
+## plot of iris
+
+```{r, echo=FALSE}
+plot(data)
+```
