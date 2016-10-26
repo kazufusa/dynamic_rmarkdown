@@ -17,13 +17,7 @@ airmiles
 summary of airmiles
 -------------------
 
-    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-    ##     412    1580    6431   10530   17530   30510
-
-plot of airmiles
-----------------
-
-![](main_files/figure-markdown_github/unnamed-chunk-2-1.png)
+Min. 1st Qu. Median Mean 3rd Qu. Max. 412 1580 6431 10530 17530 30510 \#\# plot of airmiles ![](main_files/figure-markdown_github/unnamed-chunk-1-1.png)
 
 cars
 ====
@@ -42,7 +36,7 @@ summary of cars
 plot of cars
 ------------
 
-![](main_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](main_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
 iris
 ====
@@ -68,4 +62,4 @@ summary of iris
 plot of iris
 ------------
 
-![](main_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](main_files/figure-markdown_github/unnamed-chunk-5-1.png)

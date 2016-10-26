@@ -14,16 +14,13 @@ Summaries and plots for dataset.
 name <- "airmiles"
 cat(sprintf("# %s\n", name))
 
-## summary of airmiles
+cat(sprintf("## summary of %s\n", name))
 
-```{r, echo=FALSE}
 load("./dataset/airmiles/data.rda")
 summary(data)
-```
 
-## plot of airmiles
+cat(sprintf("## plot of %s\n", name))
 
-```{r, echo=FALSE}
 plot(data)
 ```
 
